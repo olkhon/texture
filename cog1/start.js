@@ -38,7 +38,7 @@ require(["dojo", "dojo/parser", "dojo/domReady!"], function(dojo) {
 		// the cog1 project instead.
 		paths : {
 
-			"cog1" : "/cog1"
+			"cog1" : "/texture/cog1"
 		},
 		// Add one entry for each custom module.
 		// This is, among others, necessary to apply the path parameter.
