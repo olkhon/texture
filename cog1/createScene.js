@@ -17,9 +17,12 @@ function(exports, scenegraph, animation) {
 	 */
 	function init() {
         var orbitCube = scenegraph.createNodeWithModel("orbitCube", "cube", {scale: 300, textureURL: "OrbitCube.gif"});
-
+	var uvTest = scenegraph.createNodeWithModel("uvTest", "cube", {scale: 300, textureURL: "uvTest.jpg"});
+		
+		
         orbitCube.setVisible(true)
-
+	uvTest.setVisible(false)
+		
         return;
         // //var cubeNode = scenegraph.createNodeWithModel("cube", "cube", {scale:100, textureURL:"brickWall.jpg"});
 		// var cubeNode1 = scenegraph.createNodeWithModel("cube 1", "cube", {scale:70, textureURL:"stoneWall.jpg"});
